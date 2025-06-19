@@ -39,13 +39,13 @@ MediAiProject/
 
 ## Tech Stack
 
-| Layer         | Tech                                      |
-|---------------|-------------------------------------------|
-| Frontend      | React, Vite, TailwindCSS                  |
-| Backend       | Django, Django REST Framework             |
-| ML Models     | scikit-learn, pandas, NumPy, tensorflow   |
-| Chatbot       | Gemini API (Google AI Chat Integration)   |
-| Auth & API    | axios                                     |
+| Layer         | Tech                                   |
+|---------------|----------------------------------------|
+| Frontend      | React, Vite, TailwindCSS               |
+| Backend       | Django, Django REST Framework          |
+| ML Models     | scikit-learn, pandas, NumPy            |
+| Chatbot       | Gemini API (Google AI Chat Integration)|
+| Auth & API    | axios                   |
 
 ---
 

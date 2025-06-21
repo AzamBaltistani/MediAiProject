@@ -6,7 +6,7 @@ An AI-powered health assistant built with **React**, **Django**, and **Machine L
 
 ## Features
 
-### 1. 📱 Screen Time & Sanity
+### 1. Screen Time & Sanity
 
 - Analyze the impact of screen time on mental health.
 - Predict sanity scores using trained ML models.
@@ -25,7 +25,7 @@ An AI-powered health assistant built with **React**, **Django**, and **Machine L
 ---
 
 ## Project Structure
-
+```
 MediAiProject/
 ├── App/
 │ ├── frontend/ # React + Vite frontend
@@ -34,10 +34,10 @@ MediAiProject/
 ├── raw data/ # (ignored) Raw CSVs, Excel files, etc.
 ├── README.md
 └── .gitignore
-
+```
 ---
 
-## 💡 Tech Stack
+## Tech Stack
 
 | Layer         | Tech                                   |
 |---------------|----------------------------------------|
@@ -45,18 +45,7 @@ MediAiProject/
 | Backend       | Django, Django REST Framework          |
 | ML Models     | scikit-learn, pandas, NumPy            |
 | Chatbot       | Gemini API (Google AI Chat Integration)|
-| Auth & API    | JWT (if used), axios                   |
+| Auth & API    | axios                   |
 
 ---
 
-## 🛠️ Setup Instructions
-
-### Backend (Django)
-
-```bash
-cd App/backend
-python -m venv .venv
-source .venv/bin/activate    # or .venv\Scripts\activate on Windows
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver

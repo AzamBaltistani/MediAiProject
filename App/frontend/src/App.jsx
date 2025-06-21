@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import ScreenTimeEffect from './pages/ScreenTimeEffect';
 import DiseasePrediction from './pages/DiseasePrediction';
 import HealthBot from './pages/HealthBot';
+import ContactMe from './pages/ContactMe';
 
 export default function App() {
   return (
@@ -19,7 +20,7 @@ export default function App() {
             <Route path="/disease-prediction" element={<DiseasePrediction />} />
             <Route path="/screen-time-effect" element={<ScreenTimeEffect />} />
             <Route path="/ai-health-assistant" element={<HealthBot />} />
-            <Route path="/contact" element={<h1>Contact Page</h1>} />
+            <Route path="/contact" element={<ContactMe />} />
           </Routes>
         </div>
       </Router>
